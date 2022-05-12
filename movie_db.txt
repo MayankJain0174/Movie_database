@@ -1,0 +1,24 @@
+*Creating Database*
+1. create databse movies;
+2. use movies;
+3. create table movie_detail(
+	id int primary key,
+	movie_name text not null,
+	movie actor text not null,
+	movie_actress text not null,
+	movie_year int not null,
+	movie_director text not null
+	);
+
+*Inserting values*
+1. insert into movie_detail values(
+	1, "Ek Tha Tiger", "Salman Khan", "Katrina Kaif", 2012, "Kabir Khan" 
+	);
+
+2. insert into movie_detail values(
+	2, "Pushpa", "Allu Arjun", "Rashmika Mandanna", 2021, "Sukumar" 
+	);
+
+3. insert into movie_detail values(
+	3, "KGF", "Yash", "Srinidhi Shetty", 2018, "Prashanth Neel" 
+	);
